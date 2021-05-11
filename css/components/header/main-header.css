@@ -1,0 +1,29 @@
+.main-header {
+    padding: 25px;
+}
+
+.app-logo {
+    width: 120px;
+    height: 40px;
+    background-image: url(/resources/svg/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nav-list li a {
+    font-family: var(--raleway);
+    font-size: 16px;
+    font-weight: var(--semi-bold);
+    color: var(--very-dark-blue);
+    text-decoration: none;
+}
+
+.main-header, .nav-list ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list li:not(:first-child) {
+    margin-left: 10px;
+}

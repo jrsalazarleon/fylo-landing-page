@@ -1,7 +1,11 @@
+@import '/css/components/header/main-header.css';
+@import '/css/components/main/main-content.css';
+@import '/css/components/footer/main-footer.css';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
 @import '/css/base/reset.min.css';
 @import '/css/base/variables.css';
+@import '/css/base/utils.css';
 
 /* Root styles */
 #root {
@@ -9,9 +13,4 @@
     min-width: 375px;
     min-height: 100vh;
     width: 100%;
-    padding: 20px;
-    border: 1px solid red;
-
-
 }
-

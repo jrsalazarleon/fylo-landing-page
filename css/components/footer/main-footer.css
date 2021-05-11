@@ -1,0 +1,80 @@
+.main-footer {
+    background-color: var(--very-dark-blue);
+    padding: 40px 25px 40px 25px;
+}
+
+.footer-text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-logo-footer {
+    width: 140px;
+    height: 40px;
+    background-image: url(/resources/svg/logo-white.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+.contact {
+    font-family: var(--open-sans);
+    color: var(--white);
+}
+
+.contact span {
+    line-height: 2.5;
+    font-size: 14px;
+}
+
+.contact span::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 3px;
+    margin-right: 10px;
+    background-image: url(/resources/svg/icon-phone.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contact span:nth-child(2)::before {
+    background-image: url(/resources/svg/icon-email.svg);
+    top: 5px;
+}
+
+.links-footer {
+    margin-top: 25px;
+}
+
+.links-footer li a {
+    font-family: var(--open-sans);
+    color: var(--white);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 2.5;
+}
+
+.links-footer li:nth-child(4) {
+    margin-bottom: 25px;
+}
+
+.social-media {
+    margin-top: 40px;
+    align-self: center;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+
+.social-media a svg {
+    width: 20px;
+    height: 20px;
+}
+
+.social-media a:nth-child(2) {
+    padding: 0 15px;
+}

@@ -1,0 +1,230 @@
+.main-content {
+    padding-top: 100px;
+}
+
+.all-your-files-content {
+    padding: 0 25px;
+}
+
+.all-your-files-text {
+    font-family: var(--open-sans);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.illustration-1 {
+    width: 325px;
+    height: 250px;
+    background-image: url(/resources/svg/illustration-1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.all-your-files-text h1 {
+    color: var(--very-dark-blue);
+    font-size: 22px;
+    font-weight: var(--bold);
+    text-align: center;
+    width: 300px;
+}
+
+.all-your-files-text p {
+    color: var(--very-dark-blue);
+    padding: 30px 0;
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: center;
+    width: 290px;
+}
+
+.form-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#email-1 {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid var(--very-dark-blue);
+    outline: none;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+#email-1::placeholder {
+    font-family: var(--open-sans);
+}
+
+.form-1 button {
+    border-radius: 5px;
+    color: var(--white);
+    font-family: var(--open-sans);
+    font-weight: var(--bold);
+    padding: 10px 0;
+    background-color: var(--bright-blue);
+}
+
+.stay-productive-content {
+    background-color: var(--light-grayish-blue);
+    margin-top: 100px;
+    padding: 50px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.background-curve {
+    width: 100%;
+    padding: 30px 0;
+    background-image: url(/resources/svg/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 98%;
+}
+
+.illustration-2 {
+    width: 325px;
+    height: 250px;
+    background-image: url(/resources/svg/illustration-2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.stay-productive-text {
+    padding: 0 25px;
+    font-family: var(--open-sans);
+}
+
+.stay-productive-text h2 {
+    font-family: var(--raleway);
+    font-weight: var(--bold);
+    color: var(--very-dark-blue);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.stay-productive-text>p {
+    font-size: 14px;
+    color: var(--very-dark-blue);
+    padding: 15px 0;
+    line-height: 1.7;
+}
+
+.stay-productive-text p:nth-child(3) {
+    margin-bottom: 20px;
+}
+
+.stay-productive-text a {
+    align-self: center;
+    font-size: 14px;
+    font-family: var(--open-sans);
+    text-decoration: none;
+    color: var(--moderate-cyan);
+    border-bottom: 2px solid var(--moderate-cyan);
+    padding-bottom: 5px;
+}
+
+.stay-productive-text a::after {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(/resources/svg/icon-arrow.svg);
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+.testimonial-card {
+    align-self: center;
+    align-items: flex-start;
+    width: 270px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, .4) 0 0 10px;
+    padding: 20px;
+}
+
+.testimonial-card p {
+    font-size: 12px;
+    padding: 5px 0;
+    color: var(--very-dark-blue);
+}
+
+.profile-card span {
+    color: var(--very-dark-blue);
+    font-size: 8px;
+}
+
+.profile-card span:first-child {
+    font-size: 10px;
+    font-weight: var(--bold);
+}
+
+.profile-card span:first-child::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(/resources/jpg/avatar-testimonial.jpg);
+    background-size: cover;
+    border-radius: 40px;
+    position: relative;
+    top: 12px;
+    margin-right: 10px;
+}
+
+.profile-card span:nth-child(2) {
+    margin-left: 30px;
+}
+
+.early-access-content {
+    font-family: var(--open-sans);
+    color: var(--white);
+    background-color: var(--desaturated-blue);
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.early-access-text  {
+    font-weight: var(--semi-bold);
+    text-align: center;
+}
+
+.early-access-text h3 {
+    font-weight: var(--bold);
+}
+
+.early-access-text p {
+    font-size: 12px;
+    padding: 20px 0;
+    line-height: 1.7;
+}
+
+.early-access-form label input {
+    outline: none;
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.early-access-form label input::placeholder {
+    font-family: var(--raleway);
+    font-size: 10px;
+}
+
+.early-access-form button {
+    background-color: var(--bright-blue);
+    color: var(--white);
+    padding: 5px 0;
+    font-size: 10px;
+    font-family: var(--open-sans);
+    font-weight: var(--semi-bold);
+}
