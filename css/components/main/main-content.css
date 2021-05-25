@@ -4,16 +4,17 @@
 
 .all-your-files-content {
     padding: 0 25px;
+    display: flex;
+    flex-direction: column;
 }
 
 .all-your-files-text {
     font-family: var(--open-sans);
-    display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
 .illustration-1 {
+    align-self: center;
     width: 325px;
     height: 250px;
     background-image: url(/resources/svg/illustration-1.svg);
